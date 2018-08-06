@@ -51,7 +51,7 @@ $(function() {
         });
 
         it('loadFeed is called and completes its work', function() {
-            expect($('.entry').length).toBeGreaterThan(0);
+            expect($('.feed .entry').length).toBeGreaterThan(0);
         });
 
     })
